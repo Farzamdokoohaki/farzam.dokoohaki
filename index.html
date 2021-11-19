@@ -28,6 +28,17 @@ ul {
 ul {
   font-size: 200%;
 }
+		#main {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+}
+
+#main div {
+  -ms-flex: 1;  
+  flex: 1;
+}
 </style>
 </head>
 
@@ -38,11 +49,18 @@ ul {
     <form action="/action_page.php">
       <input type="text" placeholder="Search.." name="search">
       <button type="submit"><i class="fa fa-search"></i></button>
+	    
+	<div id="main">
+  <div style="background-color:coral;">RED</div>
+  <div style="background-color:lightblue;">BLUE</div>  
+  <div style="background-color:lightgreen;">Green div with more content.</div>
     </form>
-  </div>
+
 <h2>Shiraz</h2>
 <img src="Darvaze_Ghoran11.jpg" alt="Shiraz" width="700" height="333">
  
+
+	   
 
 <p><b>Shiraz</b> is the fourth-most-populous city of Iran and the capital of Fars Province, which is also known as Pars (Pārs) and Persis (Persia). At the 2016 census, the population of the city was 1,869,001 and its built-up area with "Shahr-e Jadid-e Sadra" (Sadra New Town) was home to 1,565,572 inhabitants.Shiraz is located in the southwest of Iran on the "Rudkhaneye Khoshk" (The Dry River) seasonal river. It has a moderate climate and has been a regional trade center for over a thousand years. Shiraz is one of the oldest cities of ancient Persia.
 
