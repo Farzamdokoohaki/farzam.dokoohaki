@@ -15,7 +15,11 @@
   flex: 1;
 }	
 body {
-background-color: black;
+	.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 }
 h2 {
 position: static;
@@ -23,6 +27,7 @@ position: static;
   color: red;
   text-align: center;
 }
+		
 p {
 color: white;
   font-family: verdana;
@@ -47,6 +52,14 @@ ul {
 
 
 <body>
+	<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 <div class="search-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Search.." name="search">
