@@ -1,4 +1,4 @@
-
-document.getElementById("myBtn").onclick = function(){
-   document.getElementById("myBtn").style.display = "none";
-};
+function myFunction()
+{
+alert("Hello! I am an alert box!");
+}
